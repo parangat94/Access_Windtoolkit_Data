@@ -6,11 +6,12 @@ Script created by PARANGAT BHASKAR on 1/13/19.
     "The Wind Integration National Dataset (WIND) Toolkit is an update and expansion of the Eastern and Western Wind Datasets, and is intended to support the next generation of integration studies. The WIND Toolkit includes meteorological conditions and turbine power for more than 126,000 sites in the continental United States for the years 2007–2013."
 
 BEFORE YOU GET STARTED:
-1. Get you unique API key (check lines 20-24)
+1. Get your unique API key (check lines 20-24)
 2. Update the email on line (check line 47)
-Once steps 1 and 2 are completed, RUN the script!
+3. Read rest of the comments for further instructions
+Once steps 1,2, and 3 are completed, RUN the script!
 
-3. Reach out to me on Linkedin (Parangat Bhaskar) for any further questions.
+4. Reach out to me on Linkedin (Parangat Bhaskar) for any further questions.
 '''
 
 #import library to request data from NREL server:
@@ -24,7 +25,7 @@ import sys
 #--------------------------------------------------------------------------------------------------------------------------------------------#
 #You will need an API key to get access to this data. Consider this your ID card if you like.
 #Get your unique API key here: https://developer.nrel.gov/signup/
-#Replace your api key with the dummy api below:
+#Replace the dummy API below with your unique API key:
 
 api_key = 'adjbcWIUHBijbndscjkn'    #Note: This is a dummy api key! You will need to request your own API key.
 
